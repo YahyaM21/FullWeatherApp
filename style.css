@@ -62,13 +62,13 @@ h1.temp {
     align-items: center;
 }
 
-.loading {
+.weather.loading {
     visibility: hidden;
     max-height: 20px;
     position: relative;
 }
 
-.loading::after{
+.weather.loading::after{
     visibility: visible;
     content: "Loading....";
     color: white;
